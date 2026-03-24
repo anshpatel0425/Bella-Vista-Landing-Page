@@ -189,7 +189,7 @@ textarea {
         .hero {
             min-height: 100vh; /* min-height instead of height so content never overflows */
             background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-                        url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1600') center/cover no-repeat;
+                        url('/images/background\ image.jpg') center/cover no-repeat;
             margin-top: 70px;
             display: flex;
             justify-content: center;
