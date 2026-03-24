@@ -31,6 +31,6 @@
     titles.forEach(t => {
         t.style.opacity = '0';
         t.style.transform = 'translateY(20px)';
-        t.style.transition = 'all 0.6s ease';
+        t.style.transition = 'all 0.8s ease';
         observer.observe(t);
     });

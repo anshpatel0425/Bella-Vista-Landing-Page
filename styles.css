@@ -115,6 +115,12 @@
         }
 
         /* ===== HERO ===== */
+        .hero::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.4);
+        }
         .hero {
             min-height: 100vh; /* min-height instead of height so content never overflows */
             background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
@@ -159,13 +165,13 @@
             padding: 0.85rem 2rem;
             text-decoration: none;
             font-weight: 700;
-            border-radius: 5px;
+             border-radius: 5px;
             transition: all 0.3s ease;
             display: inline-block;
             font-size: 0.95rem;
             cursor: pointer;
             border: none;
-        }
+}
 
         .btn-primary {
             background-color: var(--red);
